@@ -31,7 +31,7 @@ squareRedShowText.appendChild(squareRedText)
 
 squareRedButon.addEventListener("click", function() {
     console.log("Buton is cliked")
-    squareRedText.classList.toggle("hiden")
+    squareRedText.classList.toggle("hidden")
 })
 
 //Blue Square
@@ -40,16 +40,16 @@ const squareBlueButon = document.querySelector("#squareBlueButon")
 console.log(squareBlueShowImg, squareBlueButon)
 
 const squareBlueImg = document.createElement("img")
-squareBlueImg.crs = "hamburger.png"
+squareBlueImg.src = "hamburger.png"
 squareBlueImg.alt = "hamburger icon"
 
 squareBlueImg.classList.add("hamburgerIcon")
 squareBlueImg.classList.add("hiden")
 
-squareBlueShowImg.appendChild("squareBlueImg")
+squareBlueShowImg.appendChild(squareBlueImg)
 
 squareBlueButon.addEventListener("click", function() {
     console.log("Buton is kliked")
-    squareBlueButon.classList.toggle("hiden")
+    squareBlueImg.classList.toggle("hidden")
 })
 
